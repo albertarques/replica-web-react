@@ -1,0 +1,93 @@
+// Typeface -----------------------
+$font-family: "Poppins", sans-serif;
+$font-size: 1.2rem;
+$font-weight-regular: "regular";
+$font-weight-bold: "bold";
+
+$font-regular: $font-size $font-family;
+$font-bold: $font-weight-bold $font-size $font-family;
+
+// Color variables ---------------- 
+$white: #fff;
+
+$bck-general: #2F303A;
+$bck-primary: #202027;
+
+$nav-hover: #202027;
+
+$border-input: #2E3852;
+$border-input-focus: #596da0;
+
+$btn-bck: #1762A7;
+$btn-hover: #2180d8;
+$btn-focus: #2796ff;
+
+$accent-text: #BC3A80;
+
+// Colors ------------------------------
+.accent {
+  color: $accent-text;
+}
+
+// Backgrounds -------------------------
+.__blueBackground {
+    background-color: $btn-bck;
+}
+.__greyBackground {
+  background-color: $bck-primary;
+}
+
+// Paddings ---------------------------
+.__p1 {
+  padding: 1em;
+}
+
+// Widths -----------------------------
+.__33 {
+  width: 33.33%;;
+}
+.__w50{
+  width: 50%;
+}
+.__w75 {
+  width: 75%;
+}
+.__w100 {
+  width: 100%;
+}
+
+// Heights ----------------------------
+.__h100 {
+  height: 100vh;
+}
+
+.__h75 {
+  height: 75vh;
+}
+
+.__h50{
+  height: 50vh;
+}
+
+.__hauto{
+  height: auto;
+}
+
+// Alignments -------------------------
+.__alignCenter {
+  align-items: center;
+  margin: 0 auto;
+}
+
+.__alignRight {
+  align-items:flex-end;
+}
+
+// Justifications ---------------------
+.__justCenter {
+  justify-content: center;
+}
+
+.__justBottom {
+  justify-content: end;
+}

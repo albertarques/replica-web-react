@@ -1,0 +1,13 @@
+header {
+  padding: 1rem;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position:fixed;
+
+  a:hover {
+    color: $accent-text;
+  }
+
+}

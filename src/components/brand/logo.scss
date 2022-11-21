@@ -1,0 +1,14 @@
+a.logo {
+  text-decoration: none;
+  display: inline-flex;
+  img {
+    height: 2rem
+  }
+  span {
+    justify-self: center;
+    align-self: center;
+    color: $white;
+    padding: 0.2rem;
+    font-size: 1em;
+  }    
+}

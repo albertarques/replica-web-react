@@ -1,0 +1,23 @@
+.sqdButton {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: $bck-primary;
+  margin: 0.5rem 0.5rem 0 0;
+  color: $border-input-focus;
+  width: 6rem;
+  text-align: center;
+  img {
+    padding: 1rem;
+    height: 1rem;
+    filter: invert(46%) sepia(50%) saturate(409%) hue-rotate(185deg) brightness(82%) contrast(89%);
+  }
+  span {
+    text-decoration: none;
+    margin: 0.5rem;
+    bottom: 0;
+    position: relative;
+  }  
+}
+
